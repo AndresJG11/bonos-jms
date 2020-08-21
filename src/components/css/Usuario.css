@@ -1,0 +1,40 @@
+.usuario-nombre{
+    margin: 10px;
+    text-align: center;
+    padding: 0px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #FAFAFA;
+}
+
+.usuario-nombre h1{
+}
+
+.usuario-nombre span{
+    font-weight: bold;
+}
+
+.usuario-info{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+    margin-bottom: 10px;
+}
+
+.input-group-text{
+    background-color: ghostwhite;
+}
+
+.card{
+    margin: 10px;
+}
+
+.card-title{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.carta-success{
+    background-color: #8CFFAB;
+}

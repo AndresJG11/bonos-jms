@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "967db7873d77fc84161b155a2f388654",
+    "revision": "79f44c926cd073ea93fb53b6e26472e2",
     "url": "/bonos-jms/index.html"
   },
   {
-    "revision": "9aa119451d2a16e733c3",
+    "revision": "db392743c5b8b473ae1e",
     "url": "/bonos-jms/static/css/main.5c33d501.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bonos-jms/static/js/2.1828eb7b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9aa119451d2a16e733c3",
-    "url": "/bonos-jms/static/js/main.afbe2adb.chunk.js"
+    "revision": "db392743c5b8b473ae1e",
+    "url": "/bonos-jms/static/js/main.da507b0c.chunk.js"
   },
   {
     "revision": "3bb43608a9e59ca730f1",

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bonos-jms/static/css/main.5c33d501.chunk.css",
+    "main.js": "/bonos-jms/static/js/main.afbe2adb.chunk.js",
+    "main.js.map": "/bonos-jms/static/js/main.afbe2adb.chunk.js.map",
+    "runtime-main.js": "/bonos-jms/static/js/runtime-main.5daf9b4d.js",
+    "runtime-main.js.map": "/bonos-jms/static/js/runtime-main.5daf9b4d.js.map",
+    "static/js/2.1828eb7b.chunk.js": "/bonos-jms/static/js/2.1828eb7b.chunk.js",
+    "static/js/2.1828eb7b.chunk.js.map": "/bonos-jms/static/js/2.1828eb7b.chunk.js.map",
+    "index.html": "/bonos-jms/index.html",
+    "precache-manifest.7ca86975c7c9e01e27c020c26e54317f.js": "/bonos-jms/precache-manifest.7ca86975c7c9e01e27c020c26e54317f.js",
+    "service-worker.js": "/bonos-jms/service-worker.js",
+    "static/css/main.5c33d501.chunk.css.map": "/bonos-jms/static/css/main.5c33d501.chunk.css.map",
+    "static/js/2.1828eb7b.chunk.js.LICENSE.txt": "/bonos-jms/static/js/2.1828eb7b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5daf9b4d.js",
+    "static/js/2.1828eb7b.chunk.js",
+    "static/css/main.5c33d501.chunk.css",
+    "static/js/main.afbe2adb.chunk.js"
+  ]
+}

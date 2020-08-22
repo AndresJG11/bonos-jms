@@ -7,11 +7,13 @@
     background-color: #FAFAFA;
 }
 
-.usuario-nombre h1{
-}
 
 .usuario-nombre span{
     font-weight: bold;
+}
+
+.card-header{
+    padding-bottom: 0px;
 }
 
 .usuario-info{
@@ -20,6 +22,14 @@
     padding: 5px 20px 5px 20px;
     box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
     margin-bottom: 10px;
+}
+
+.usuario-options{
+    border-radius: 2px;
+}
+
+.btn{
+    background-color: white;
 }
 
 .input-group-text{
@@ -37,4 +47,8 @@
 
 .carta-success{
     background-color: #8CFFAB;
+}
+
+.carta-perdida{
+    background-color: #FCD9D9;
 }

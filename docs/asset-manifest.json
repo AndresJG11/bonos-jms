@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/bonos-jms/static/css/main.5c33d501.chunk.css",
-    "main.js": "/bonos-jms/static/js/main.7b131ddc.chunk.js",
-    "main.js.map": "/bonos-jms/static/js/main.7b131ddc.chunk.js.map",
+    "main.css": "/bonos-jms/static/css/main.1d475081.chunk.css",
+    "main.js": "/bonos-jms/static/js/main.5f00276f.chunk.js",
+    "main.js.map": "/bonos-jms/static/js/main.5f00276f.chunk.js.map",
     "runtime-main.js": "/bonos-jms/static/js/runtime-main.5daf9b4d.js",
     "runtime-main.js.map": "/bonos-jms/static/js/runtime-main.5daf9b4d.js.map",
-    "static/js/2.c2fa328d.chunk.js": "/bonos-jms/static/js/2.c2fa328d.chunk.js",
-    "static/js/2.c2fa328d.chunk.js.map": "/bonos-jms/static/js/2.c2fa328d.chunk.js.map",
+    "static/js/2.99f9006e.chunk.js": "/bonos-jms/static/js/2.99f9006e.chunk.js",
+    "static/js/2.99f9006e.chunk.js.map": "/bonos-jms/static/js/2.99f9006e.chunk.js.map",
     "index.html": "/bonos-jms/index.html",
-    "precache-manifest.f4d505a2da4b6b2413554c6f6df5e4d0.js": "/bonos-jms/precache-manifest.f4d505a2da4b6b2413554c6f6df5e4d0.js",
+    "precache-manifest.d384e769ee1bd393b3297f9d80f3cc07.js": "/bonos-jms/precache-manifest.d384e769ee1bd393b3297f9d80f3cc07.js",
     "service-worker.js": "/bonos-jms/service-worker.js",
-    "static/css/main.5c33d501.chunk.css.map": "/bonos-jms/static/css/main.5c33d501.chunk.css.map",
-    "static/js/2.c2fa328d.chunk.js.LICENSE.txt": "/bonos-jms/static/js/2.c2fa328d.chunk.js.LICENSE.txt"
+    "static/css/main.1d475081.chunk.css.map": "/bonos-jms/static/css/main.1d475081.chunk.css.map",
+    "static/js/2.99f9006e.chunk.js.LICENSE.txt": "/bonos-jms/static/js/2.99f9006e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5daf9b4d.js",
-    "static/js/2.c2fa328d.chunk.js",
-    "static/css/main.5c33d501.chunk.css",
-    "static/js/main.7b131ddc.chunk.js"
+    "static/js/2.99f9006e.chunk.js",
+    "static/css/main.1d475081.chunk.css",
+    "static/js/main.5f00276f.chunk.js"
   ]
 }

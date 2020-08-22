@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from "react-router-dom";
 import { getData } from '../helpers/getData';
 import getIconsStatus from '../helpers/getIconsStatus';
+import {Apuesta} from './Apuesta';
 
 import "./css/Usuario.css"
 
@@ -21,46 +22,7 @@ export const Usuario = () => {
             <hr />
 
             <div className="usuario-apuestas d-flex align-content-start flex-wrap justify-content-around">
-                {userData["apuestas"].map((objApuesta, idx) => <div className={(userData['apuestas'][idx]['estado'])?'card col-sm-5 carta-success':'card col-sm-5 bg-light' } key={idx} >
-                    <div className="card-header"> <h4 className="card-title"> Apuesta #{objApuesta['numero']} </h4> </div>
-                    <div className="card-body">
-
-                        <div className="input-group mb-3 ">
-                            <div className="input-group-prepend">
-                                <span className="input-group-text"> Evento </span>
-                            </div>
-                            <input type="text" className="form-control" value={objApuesta['nombreEvento']} disabled />
-                        </div>
-
-                        <div className="input-group mb-3">
-                            <div className="input-group-prepend">
-                                <span className="input-group-text"> Mercado </span>
-                            </div>
-                            <input type="text" className="form-control" value={objApuesta['mercado']} disabled />
-                        </div>
-
-                        <div className="input-group mb-3">
-                            <div className="input-group-prepend">
-                                <span className="input-group-text"> Fecha </span>
-                            </div>
-                            <input type="text" className="form-control" value={objApuesta['fecha']} disabled />
-                        </div>
-
-                        <div className="input-group mb-3">
-                            <div className="input-group-prepend">
-                                <span className="input-group-text"> Hora de inicio </span>
-                            </div>
-                            <input type="text" className="form-control" value={objApuesta['horaInicio']} disabled />
-                        </div>
-
-                        <div className="input-group mb-3">
-                            <div className="input-group-prepend">
-                                <span className="input-group-text"> Hora Final Estimada </span>
-                            </div>
-                            <input type="text" className="form-control" value={objApuesta['horaFinal']} disabled />
-                        </div>
-                    </div>
-                </div>)}
+                {userData["apuestas"].map((objApuesta, idx) => <Apuesta objApuesta={objApuesta} idx={idx} userData={userData} key={idx}/>)}
             </div>
 
 

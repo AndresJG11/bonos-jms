@@ -8,9 +8,8 @@ function App() {
   
   console.log("This is the process.env", process.env.PUBLIC_URL)
   return (
-    <HashRouter basename={'https://andresjg11.github.io/bonos-jms'}>
       <div className="App">
-        <Router>
+        <Router basename={`${process.env.PUBLIC_URL}/`} >
           <Switch>
             <Route exact path="/">
               <Tabla />
@@ -21,8 +20,6 @@ function App() {
           </Switch>
         </Router>
       </div>
-    </HashRouter>
-
   );
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams } from "react-router-dom";
 import { getData } from '../helpers/getData';
 import getIconsStatus from '../helpers/getIconsStatus';
-import {Apuesta} from './Apuesta';
+import { GridApuestas } from './GridApuestas';
 
 import "./css/Usuario.css"
 
@@ -21,10 +21,7 @@ export const Usuario = () => {
             <h2>Apuestas</h2> {getIconsStatus(userData['wplay'])}
             <hr />
 
-            <div className="usuario-apuestas d-flex align-content-start flex-wrap justify-content-around">
-                {userData["apuestas"].map((objApuesta, idx) => <Apuesta objApuesta={objApuesta} idx={idx} userData={userData} key={idx}/>)}
-            </div>
-
+            <GridApuestas initApuestas={userData['apuestas']} />
 
         </div>
 
